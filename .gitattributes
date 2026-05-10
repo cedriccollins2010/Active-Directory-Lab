@@ -1,0 +1,20 @@
+# Normalisation des fins de ligne entre Windows et Linux/macOS
+* text=auto
+
+# Scripts PowerShell — conserver CRLF sur Windows
+*.ps1 text eol=crlf
+
+# Markdown — LF universel pour GitHub
+*.md text eol=lf
+
+# CSV — LF universel
+*.csv text eol=lf
+
+# Binaires — pas de conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.docx binary
+*.pdf binary
